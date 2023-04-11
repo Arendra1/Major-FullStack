@@ -50,7 +50,9 @@ const Checkout = ({history}) => {
                         <Stack spacing={3}>
                             
                             <Select variant="flushed" onChange = {(e) => setCountry(e.target.value)} >
-                                <option value="Maroc">Maroc</option>
+                                <option value="Maroc">India</option>
+                                <option value="Maroc">Nepal</option>
+                                <option value="Maroc">Bangladesh</option>
                                 <option value="Algerie">Algerie</option>
                                 <option value="France">France</option>
                                 <option value="Espagne">Espagne</option>
@@ -103,7 +105,7 @@ const Checkout = ({history}) => {
                         <h1> <RiShoppingCart2Line size="29"/>Cart({cart.cartItems.length})</h1>
                         <div className="cart-summ">
                             {cart.cartItems.map((item,index)=>(
-                            <p key = {index}>{item.qty} X <Link to={`/product/${item.product}`}>{item.name}</Link> <b>${item.qty * item.price}</b></p>
+                            <p key = {index}>{item.qty} X <Link to={`/product/${item.product}`}>{item.name}</Link> <b>Rs.{item.qty * item.price}</b></p>
 
                             ))}
                         </div>

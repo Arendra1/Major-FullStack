@@ -4,6 +4,7 @@ import colors from 'colors'
 // a mongoose stuf (mongoose.connect ....) return always a promise
 const connectDB = async () => {
     try{
+        console.log(process.env.MONGO_URI);
         const conn = await mongose.connect(process.env.MONGO_URI,{
             useUnifiedTopology: true,
             useNewUrlParser: true,

@@ -51,7 +51,7 @@ const Contactus = () => {
                     <div className="adressCtn">
 
                         <h3> Address</h3>
-                        <p>Coza Store Center 8th floor, 379 Hudson St, New York, NY 10018 US</p>
+                        <p>Electronics and communication department,SATI vidisha 464001</p>
                     </div>
                 </div>
                     <div className="box">
@@ -59,7 +59,7 @@ const Contactus = () => {
                     <div className="adressCtn">
 
                         <h3>Lets Talk</h3>
-                        <p className="infoCtn">0657964665</p>
+                        <p className="infoCtn">+91 7292001570</p>
                     </div>
                 </div>
                 <div className="box">
@@ -67,7 +67,7 @@ const Contactus = () => {
                     <div className="adressCtn">
 
                         <h3>Sale Support</h3>
-                        <p className="infoCtn">Store@gmail.com</p>
+                        <p className="infoCtn">hiiamashutosh714@gmail.com</p>
                     </div>
                 </div>
             </div>
